@@ -1,86 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de MicroFrontEnd USES</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1em 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-        }
-        nav a {
-            color: white;
-            padding: 1em;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        section {
-            padding: 2em;
-            background-color: white;
-            margin: 1em;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Pong Game</title>
 </head>
+<style>
+    @import url('httpsL//fonts.googleapis.com/css2?family=Poppins&display=swap');
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    body {
+        text-align: center;
+        background-color: ghostwhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+    }
+</style>
 <body>
-    <header>
-        <h1>Portfólio de Pesquisa em Engenharia de Software</h1>
-    </header>
-    <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#participantes">Participantes</a>
-        <a href="#instituicao">Instituição</a>
-        <a href="#resultados">Resultados</a>
-        <a href="#contato">Contato</a>
-    </nav>
-    <section id="sobre">
-        <h2>Sobre a Pesquisa</h2>
-        <p>Descrição detalhada da pesquisa em engenharia de software, objetivos, metodologia, e impacto esperado.</p>
-    </section>
-    <section id="participantes">
-        <h2>Participantes</h2>
-        <p>Informações sobre os pesquisadores e colaboradores que participaram da pesquisa.</p>
-    </section>
-    <section id="instituicao">
-        <h2>Instituição</h2>
-        <p>Informações sobre a instituição responsável pela pesquisa, incluindo histórico, missão e visão.</p>
-    </section>
-    <section id="resultados">
-        <h2>Resultados</h2>
-        <p>Apresentação dos resultados da pesquisa, gráficos, e análise dos dados coletados.</p>
-    </section>
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Informações de contato para mais detalhes sobre a pesquisa.</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 Portfólio de Pesquisa em Engenharia de Software. Todos os direitos reservados.</p>
-    </footer>
+    <h1>Pong Game</h1>
+    <canvas></canvas>
+    <p>Control the left player by using up and down arrow keys</p>
+    <script src="script.js"></script>
 </body>
 </html>
